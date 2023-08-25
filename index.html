@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Name, Email - Duplicate email not allowed - assign random Centre -->
+
+    <div class="container">
+        <div class="studentInfo">
+            <h2>Register for the Bootcamp</h2>
+            <input type="text" class="studentName" id="studentName" placeholder="enter your name ">
+            <input type="text" class="studentMailId" id="studentMailId" placeholder="enter your mailid">
+            <button id="addStudent" class="addStudent" onclick="addStudent()" >Add me</button>
+            <div id="action_message" class="action_message">Provide your Name and MailId</div>
+        </div>
+
+        <div class="studentContainer" id="studentContainer">
+            <!-- <div class="studentCard" id="studentCard"> -->
+                <!-- <p class="name">name</p>
+                <p class="mailid">mailid</p>
+                <p class="examCentre">centre</p> -->
+            <!-- </div> -->
+            
+        </div>
+
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
